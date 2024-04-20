@@ -10,12 +10,13 @@
 
 
 
-## references
+## References
 - [SMILES Transformer: Pre-trained Molecular Fingerprint for Low Data Drug Discovery](https://arxiv.org/abs/1911.04738) by Shion Honda et al.
 - [_Enabling language models to fill in the blanks_](https://arxiv.org/abs/2005.05339) (Donahue et al. 2020)  
 - tdcommons for all datasets https://github.com/mims-harvard/TDC
 
-## getting started
+## Getting started
+- Install pytorch 2.1, tdc, numpy, pandas, sklearn and tqdm
 - Train the models for toxicity prediction and drug response prediction using the provided notebooks
 - Train the infilling model for filling blanks in SMILES strings (GPU recommended)
 - Once all models are trained run the notebook MediSeekerDemo.ipynb
