@@ -1,0 +1,3 @@
+D: & cd My Documents\projects\drug\st & conda activate pt21
+python build_corpus.py --out_path data\chemblv29_corpus.txt # To build vocab for zinc dataset (now Chembl_v29)
+python pretrain_trfm.py --vocab data/chembl_vocab.pkl --out-dir ../smiles_result --seq_len 256 --batch_size 32 --n_worker 1
