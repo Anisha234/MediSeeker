@@ -6,8 +6,7 @@
  - ilm: Code for training an infilling generator model to "fill in the blanks" given a smiles representation. Modified from code in  https://github.com/chrisdonahue/ilm/tree/master. We modify the code to mask smiles representation of drugs and train on a nanoGPT model architecture
  - st: Utilities for tokenization of smiles strings. Modified from code in https://github.com/DSPsleeporg/smiles-transformer
 
- - nanoGPT: Repo (https://github.com/karpathy/nanoGPT) for training a small GPT model from scratch. We use the nanoGPT model architecture for
- infilling.
+ - nanoGPT: We only use the model definition (modified) from (https://github.com/karpathy/nanoGPT) for infilling.
 
 
 
