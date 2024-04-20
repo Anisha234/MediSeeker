@@ -18,5 +18,6 @@
 ## Getting started
 - Install pytorch 2.1, tdc, numpy, pandas, sklearn and tqdm
 - Train the models for toxicity prediction and drug response prediction using the provided notebooks
-- Train the infilling model for filling blanks in SMILES strings (GPU recommended)
+- (Optional) Train the infilling model for filling blanks in SMILES strings (GPU recommended)
+- Alternately, use the pretrained infilling model provided.
 - Once all models are trained run the notebook MediSeekerDemo.ipynb
