@@ -2,7 +2,7 @@
  Code to build a pipeline for drug discovery for personalized cancer treatment. This repo consists of the
  following directories:
  - toxicity: Code for training a toxicity predictor (regressor) on the herG dataset
- - drugResponse: Code for training a predictor to estimate the IC50 value for a cell line, drug combination
+ - response: Code for training a predictor to estimate the IC50 value for a cell line, drug combination
  - ilm: Code for training an infilling generator model to "fill in the blanks" given a smiles representation. Modified from code in  https://github.com/chrisdonahue/ilm/tree/master. We modify the code to mask smiles representation of drugs and train on a nanoGPT model architecture
  - st: Utilities for tokenization of smiles strings. Modified from code in https://github.com/DSPsleeporg/smiles-transformer
 
